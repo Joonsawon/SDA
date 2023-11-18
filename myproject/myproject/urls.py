@@ -21,3 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')) # 여기 파일에 없는 path로 접속했을 때?
 ]
+
+#강대윤 바보
