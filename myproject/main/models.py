@@ -12,3 +12,5 @@ class User(models.Model):
     class Meta:
         db_table = 'member'
         app_label = 'main'
+
+#asdfasdfasdf
