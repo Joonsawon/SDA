@@ -11,8 +11,12 @@ def create(request):
 def read(request, id):
     return HttpResponse('Read!'+id)
 
+# SDA means stand?
+
 def user_view(request):
     user_instance_list = User.objects.all()
 
     return render(request, 'index.html', {'user_instance_list': user_instance_list})
 
+
+#/ dfdfsdfsdfsdfsd
