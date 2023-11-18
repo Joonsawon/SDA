@@ -18,3 +18,5 @@ def user_view(request):
 
     return render(request, 'index.html', {'user_instance_list': user_instance_list})
 
+
+#/ dfdfsdfsdfsdfsd
