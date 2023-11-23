@@ -18,8 +18,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('main.urls')) # 여기 파일에 없는 path로 접속했을 때?
+    path('admin/', admin.site.urls), # 장고의 기본적인 관리자 화면
+    path('', include('main.urls')), # main app의 urls로 보내준다. (홈페이지)
+    path('스도쿠/', include('스도쿠.urls'))
 ]
 
 #강대윤 바보
