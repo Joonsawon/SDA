@@ -9,7 +9,7 @@ def index(request):
     global topics
     ol = ''
     for topic in topics:
-        ol += f'<li><a href="/read/{topic["id"]}>{topic["title"]}</a></li>'
+        ol += f'<li><a href="/read/{topic["id"]}">{topic["title"]}</a></li>'
 
     return HttpResponse(f'''
     <h1>스도쿠</h1>
@@ -19,6 +19,7 @@ def index(request):
     <h2>Welcome</h2>
     Hello, Django
     ''')
+
 #return HttpResponse('<h1>Random</h1>'+str(random.random()))
 
 def 스도쿠(request):
