@@ -3,5 +3,5 @@ from django.urls import path, include
 from 스도쿠 import views
 
 urlpatterns = [
-    path('', views.index)
+    path('', views.스도쿠)
 ]
