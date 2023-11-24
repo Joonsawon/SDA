@@ -4,7 +4,7 @@ from sudoku import views
 
 
 urlpatterns = [
-    path('', views.index),
+    path('', views.sudoku),
     path('create/', views.create),
     path('read/<id>/', views.read)
 ]
