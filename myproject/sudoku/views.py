@@ -21,10 +21,10 @@ def sudoku(request):
     print('request.method', request.method)
     if request.method == 'POST':
         size = int(request.POST['size'])
-        수도쿠 = []
+        수도쿠 = ''
         for i in range(size):
-            수도쿠.append(np.concatenate((np.arange(1+i,size+1), np.arange(1,i+1))))
-        수도쿠 = np.array(수도쿠)
+            수도쿠 += f'''<p>{np.concatenate((np.arange(1+i,size+1), np.arange(1,i+1)))}</p>'''
+        #수도쿠 = np.array(수도쿠)
 
         #print(np.random.shuffle(수도쿠))
 
