@@ -8,6 +8,13 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
+
+# 프로젝트 개발환경 관련 정보
+인터프리터: 파이썬 3.9
+라이브러리: requirements.txt 파일에 확인
+
+'pip install -r requirements.txt'
+위 명령어를 통해 프로젝트에 사용된 라이브러리를 (버전에 맞춰) 한번에 설치 가능.
 """
 import os
 from pathlib import Path
