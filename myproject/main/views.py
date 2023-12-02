@@ -20,3 +20,4 @@ def user_view(request):
 
 
 #/ dfdfsdfsdfsdfsd
+# 개발 트랜드
