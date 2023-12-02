@@ -46,8 +46,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'sudoku' # 준영 개발 app 등록
-    'PMP' # 준영 개발 app 등록
+    #'sudoku' # 준영 개발 app 등록
+    #'PMP' # 준영 개발 app 등록
 ]
 
 MIDDLEWARE = [
