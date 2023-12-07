@@ -20,7 +20,8 @@ from django.urls import path, include
 urlpatterns = [
     path('', include('main.urls')), # include 함수를 이용해 main 폴더(app)의 urls.py로 보내준다. (홈 페이지)
     path('admin/', admin.site.urls), # 장고의 기본 관리자 페이지
-    path('sudoku/', include('sudoku.urls')) # 수도쿠 미니게임 페이지 (경로 입력으로만 접속 가능한 이스터에그로 활용할 예정)
+    path('sudoku/', include('sudoku.urls')),# 수도쿠 미니게임 페이지 (경로 입력으로만 접속 가능한 이스터에그로 활용할 예정)
+    path('offering/', include('offering.urls')) # 변형균 헌금 관리 프로그램
 ]
 
 #강대윤 바보

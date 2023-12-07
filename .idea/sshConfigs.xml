@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="150.230.252.97" id="1157b94d-1ec8-4ea2-b3c6-080d032a6a03" port="22" customName="웹서버설정" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="웹서버설정" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
