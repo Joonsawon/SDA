@@ -14,7 +14,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 인터프리터: 파이썬 3.9
 라이브러리: requirements.txt 파일에 확인
 
-pip freeze > requirements.txt
+pip freeze > requirements.txt # 이건 현재 설치된 라이브러리 저장
+pip install -r requirements.txt # 저장된 라이브러리 목록 설치
 위 명령어를 통해 프로젝트에 사용된 라이브러리를 (버전에 맞춰) 한번에 설치 가능.
 
 """
