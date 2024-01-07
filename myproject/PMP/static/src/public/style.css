@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #fff;
+    text-align: center;
+    font-family: 'Noto_sans' , sans-serif;
+    background-image: linear-gradient(to left bottom, #26294e, #222446, #1e203e, #1a1b36, #16172e);
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+}
+::selection {
+    background-color: #bf47eb7d;
+}
+.content {
+    display: none;
+}

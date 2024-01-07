@@ -16,12 +16,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf import settings
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.contrib.staticfiles.urls import static
 
 urlpatterns = [
     path('', include('main.urls')), # include 함수를 이용해 main 폴더(app)의 urls.py로 보내준다. (홈 페이지)
     path('admin/', admin.site.urls), # 장고의 기본 관리자 페이지
     path('sudoku/', include('sudoku.urls')),# 수도쿠 미니게임 페이지 (경로 입력으로만 접속 가능한 이스터에그로 활용할 예정)
+    path('PMP/', include('PMP.urls')), #기도찬양 플레이 페이지
     path('offering/', include('offering.urls')) # 변형균 헌금 관리 프로그램
 ]
+
+urlpatterns += staticfiles_urlpatterns()
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 #강대윤 바보

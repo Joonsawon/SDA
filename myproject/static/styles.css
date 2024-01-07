@@ -1,3 +1,10 @@
+body {
+    font-family: 'Inter', sans-serif;  /* 'Inter' 폰트 사용, 설치되어있지 않은 경우에는 대체로 sans-serif 폰트를 사용 */
+    background: #E5E5E5;
+    height: 100vh; /* 뷰포트 높이에 맞게 설정하여 화면 중앙에 정렬합니다. */
+}
+
+
 .e1_2 {
 	overflow:hidden;
 }

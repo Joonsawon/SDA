@@ -1,0 +1,175 @@
+.lyric {
+    margin: 0 auto;
+    padding: 15px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: #21244ea8;
+    border: 3px solid #8225e053;
+    width: 340px;
+    height: 100px;
+    border-radius: 5px;
+}
+.lyric-content {
+    padding: 5px 0;
+    color: #ab85d053;
+}
+textarea {
+    resize: none;
+    font-family: sans-serif;
+}
+textarea::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    height: 20%;
+    border-radius: 10px;
+    background-color: #8425E0;
+    outline: 1px solid #8225e053;
+}
+.fi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.color-grey{
+    color: #919191bb;
+}
+.album {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.fi-ss-angle-small-left{
+    position: absolute;
+    left: 10px;
+}
+.fi-ss-angle-small-left:hover{
+    color: #bf47eb;
+}
+.album-name {
+    cursor: pointer;
+    transition: .3s;
+}
+.album-name:hover {
+    color: rgba(105, 105, 105, 0.858);
+}
+.img-style {
+    border-radius: 15px;
+    box-shadow: 0 0 35px 0  #bf47eb31;
+}
+.artist {
+    cursor: pointer;
+    transition: .3s;
+}
+.artist:hover {
+    color: #bf47eb;
+}
+.bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.fi-sr-time-forward-ten {
+    margin: 0 40px;
+}
+.change {
+    transform: rotateY(180deg);
+    margin-right: 30px;
+}
+.fi-sr-play , .fi-sr-pause {
+    background-image: linear-gradient(to right bottom, #8425e0, #942de3, #a336e5, #b13ee8, #bf47eb);
+    border-radius: 50%;
+    box-shadow: 0 0 30px 0 #8225e073;
+}
+.fi-sr-play:hover , .fi-sr-pause:hover {
+    background-image: linear-gradient(to left top, #8425e0, #942de3, #a336e5, #b13ee8, #bf47eb);
+    box-shadow: 0 0 40px 0 #8225e073;
+}
+.progress {
+    cursor: pointer;
+    height: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #21244e;
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+.progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #a336e5;
+    cursor: pointer;
+    border: 3.5px solid #fff;
+    box-shadow: 
+    -300px 0 40px 270px  #bf47eb, 
+    -350px 0 50px 250px #b13ee8,
+    -400px 0 60px 220px  #a336e5,
+    -450px 0 70px 170px #942de3,
+    -277px 0 80px 120px #8425E0;
+}
+.progress::-moz-range-thumb{
+    -moz-appearance: none;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #a336e5;
+    cursor: pointer;
+    border: 3.5px solid #fff;
+    box-shadow: 
+    -300px 0 40px 270px  #bf47eb, 
+    -350px 0 50px 250px #b13ee8,
+    -400px 0 60px 220px  #a336e5,
+    -450px 0 70px 170px #942de3,
+    -277px 0 80px 120px #8425E0;
+}
+.mrg-tp{
+    margin-top: 20px;
+}
+.song-info {
+    margin-top: 2em;
+}
+.song-info p {
+    margin-top: 8px;
+}
+.song-progress {
+    margin-top: 2em;
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+.social .fi {
+    padding: 13px;
+}
+.social .fi {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+.fi-sr-time-forward-ten:hover , .mode-toggel:hover , .heart:hover {
+    color: #d487f0af;
+}
+.fi-sr-heart {
+    color: #8425E0;
+}
+.made {
+    color: #bf47eb;
+}

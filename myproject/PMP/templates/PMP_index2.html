@@ -1,0 +1,135 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#8425e0">
+
+    <title>Metro Boomin (Feat. Don Toliver & Future) - Too Many Nights</title>
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+
+    <link href="{% static './src/public/style.css' %}" rel="stylesheet"/>
+    <link href="{% static './src/public/preload.css' %}" rel="stylesheet"/>
+    <link href="{% static './src/music/responsive.css' %}" rel="stylesheet"/>
+    <link href="{% static './src/icon/css/icon.css' %}" rel="stylesheet"/>
+    <link href="{% static './src/music/style.css' %}" rel="stylesheet"/>
+</head>
+
+
+<body>
+
+    <!-- Preloader -->
+    <div class="pre-loader"></div>
+
+    <!-- All this page content -->
+    <div class="content">
+        <button class="github">View On GitHub</button>
+        <div class="desk-bar">
+            <div class="desk-menu">
+
+                <div class="tool">
+                    <i class="fi fi-rr-user"></i>
+                    <i class="fi fi-rr-search"></i>
+                </div>
+                <div class="hr"></div>
+                <div class="desk-icons">
+                    <i class="fi fi-rr-home"></i>
+                    <i class="fi fi-sr-download"></i>
+                    <i class="fi fi-rr-music-alt"></i>
+                    <i class="fi fi-rr-paper-plane"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container flex">
+            <div>
+                <div class="album">
+                    <i class="fi fi-ss-angle-small-left font-size-19"></i>
+                    <h2 class="album-name font-size-md">Heros & Villains</h2>
+                </div>
+                <div class="img">
+                    <img src="Heros & Villains.jpg" alt="" class="img-size img-style cover">
+                </div>
+            </div>
+            <div class="music-control">
+                <div class="song-info">
+                    <h2 class="font-size-lg artist">Metro Boomin</h2>
+                    <p class="font-size-md color-grey">(Feat. Don Toliver & Future)</p>
+                    <p class="font-size-md color-grey track">Too Many Nights</p>
+                </div>
+                <div class="song-progress">
+                    <div class="range">
+                        <input class="progress" type="range" min="1" max="100" value="1">
+                        <div class="time">
+                            <p class="time-current color-grey">00:00</p>
+                            <p class="time-duration color-grey"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <audio class="music" src="03 Too Many Nights (feat. Don Toliver & Future).mp3"></audio>
+                    <i class="fi mode-toggel color-grey fi-rr-shuffle"></i>
+                    <i class="fi fi-sr-time-forward-ten back change color-grey"></i>
+                    <i class="fi play-music fi-sr-play"></i>
+                    <i class="fi fi-sr-time-forward-ten next color-grey"></i>
+                    <i class="fi heart color-grey fi-rr-heart"></i>
+                </div>
+
+                <div class="lyric">
+                    <h3 class="lyric-content">. . .</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mobile-bar">
+            <div>
+                <div class="line"></div>
+            </div>
+            <div class="menue">
+                <i class="fi fi-rr-home"></i>
+                <i class="fi fi-sr-download"></i>
+                <i class="fi fi-rr-music-alt"></i>
+                <i class="fi fi-rr-paper-plane"></i>
+            </div>
+        </div>
+        <div class="mobile-footer">
+            <div class="social">
+                <a href="https://github.com/Mhyar-nsi"><i class="fi fi-brands-github"></i></a>
+                <a href="https/t.me/Mhyar_nsi"><i class="fi fi-brands-telegram"></i></a>
+                <a href="https://instagram.com/mhyar_nsi"><i class="fi fi-brands-instagram"></i></a>
+                <a href="https://twitter.com/mhyar_nsi"> <i class="fi fi-brands-twitter"></i></a>
+            </div>
+            <p>Made with 💜 By <a class="made" href="https://github.com/Mhyar-nsi" target="_blank">Mahyar</a></p>
+        </div class="mobile-footer">
+
+        </div>
+        <footer>
+            <div class="social">
+                <a href="https://github.com/Mhyar-nsi"><i class="fi fi-brands-github"></i></a>
+                <a href="https/t.me/Mhyar_nsi"><i class="fi fi-brands-telegram"></i></a>
+                <a href="https://instagram.com/mhyar_nsi"><i class="fi fi-brands-instagram"></i></a>
+                <a href="https://twitter.com/mhyar_nsi"> <i class="fi fi-brands-twitter"></i></a>
+            </div>
+            <p>Made with 💜 By <a class="made" href="https://github.com/Mhyar-nsi" target="_blank">Mahyar</a></p>
+        </footer>
+
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="Mhyar" data-description="Support me on Buy me a coffee!" data-message="" data-color="#BD5FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></img></script>
+    <script src="{% static './src/js/preload.js' %}"></script>
+    <script src="{% static './src/js/app.js' %}"></script>
+    <script src="{% static './src/js/btn.js' %}"></script>
+    <script src="{% static './lyric.js' %}"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+.flex {
+    display: flex;
+}
+.container {
+    width: 100%;
+    margin: 20px 0;
+}
+.container-fluid {
+    width: 80%;
+    margin: 20px 10px;
+}
+
+/* Mobile */
+@media screen and (max-width : 992px) {
+    .github {
+        display: none;
+    }
+    .artist-pic {
+        display: none;
+    }
+    .font-size-md{font-size: 16px;}
+    .font-size-lg{font-size: 26px;}
+    .content {
+        height: 100%;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .desk-bar {
+        display: none;
+    }
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-size {
+        width: 270px;
+    }
+
+    .progress{
+        width: 100%;
+    }
+    .fi-sr-play , .fi-sr-pause {
+        font-size: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .mobile-bar {
+        margin-top: 1.5rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    .line {
+        width: 100%;
+        height: 2px;
+        background-color: #bf47eb1b;
+    }
+    .menue{
+        margin: 2rem 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .menue .fi {
+        background: -webkit-linear-gradient(#8225e062, #b23ee85a, #bf47eb5c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 25px;
+        padding: 5px 0;
+    }
+    .menue .fi:hover {
+        background: -webkit-linear-gradient(#bf47eb , #b13ee8 ,#8425e0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .mobile-footer {
+        border-radius: 50% 50% 0 0;
+        background: linear-gradient(to right , #21244e, #242459, #292364, #31206e, #3a1c77, #3a1c77, #3a1c77, #3a1c77, #31206e, #292364, #242459, #21244e);
+        padding: 2rem 0;
+    }
+
+    .mobile-footer p {
+        margin-top: 5px;
+    }
+    .button {
+        display: none;
+    }
+    footer {
+        display: none !important;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width : 993px) {
+    body {
+        height: 100vh;
+    }
+    .github {
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        font-family: monospace;
+        color: #fff;
+        background-color: #8425e0;
+        border: 1px solid #8425e0;
+        border-radius: 10px;
+        transition: .3s;
+    }
+    .github:hover {
+        background-color: transparent;
+    }
+    .font-size-md{font-size: 22px;}
+    .font-size-lg{font-size: 40px;}
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 18px 20px;
+    }
+    .desk-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 100vh;
+        background-color: #8225e012;
+        border-right: 2px solid #8225e053;
+        border-radius: 0 40PX 40PX 0;
+        /* box-shadow: 10px 0 30px 5px #8225e012; */
+    }
+    .desk-icons .fi , .tool .fi{
+        margin: 4rem 0;
+        font-size: 20px;
+    }
+    .desk-icons .fi , .tool .fi {
+        background: -webkit-linear-gradient(#8225e062, #b23ee85a, #bf47eb5c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 27px;
+        padding: 5px 0;
+    }
+    .desk-icons .fi:hover , .tool .fi:hover {
+        background: -webkit-linear-gradient(#bf47eb , #b13ee8 ,#8425e0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .hr {
+        width: 60px;
+        height: 2px;
+        background-color: #8225e053;
+    }
+    .tool {
+        margin-bottom: 3.5rem;
+    }
+    .tool .fi {
+        margin: 2.5rem 0;
+    }
+    .album {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-size {
+        width: 400px;
+    }
+    .artist-pic{
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+    }
+    .music-control{
+        margin-right: 20px;
+    }
+    .song-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+    }
+    .range {
+        width: 370px;
+    }
+    .progress{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .fi-sr-play , .fi-sr-pause {
+        font-size: 25px;
+        width: 70px;
+        height: 70px;
+    }
+    .mobile-bar {
+        display: none;
+    }
+    .mobile-footer {
+        display: none;
+    }
+    footer {
+        margin-top: -80px;
+        display: none;
+    }
+}
